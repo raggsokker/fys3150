@@ -40,7 +40,7 @@ plt.title('$log_{10} (absolute \; error)$')
 plt.xlabel('x')
 plt.ylabel('$log_{10} (absolute \; error)$')
 plt.legend()
-#plt.savefig("log10(abs_error)")
+plt.savefig("log10(abs_error)")
 #plt.show()
 
 
@@ -54,7 +54,7 @@ plt.title('$log_{10} (relative \; error)$')
 plt.xlabel('x')
 plt.ylabel('$log_{10} (relative \; error)$')
 plt.legend()
-#plt.savefig("log10(rel_error)")
+plt.savefig("log10(rel_error)")
 #plt.show()
 
 
