@@ -1,3 +1,5 @@
+NOTE: I see now, that the generaltime.cpp is the same codefile as specialtime.cpp (for some odd reason). The generaltime.cpp should be the same as the code from problem7.cpp
+
 code that evaluates v_i's using the special and the general algorithm. Writes the computation time to file and plots the time.
 
 My computation time's for N = 100,...,1000000 are attached.
