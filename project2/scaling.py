@@ -17,7 +17,7 @@ y = P[0]*x**2 + P[1]*x + P[2]
 #Plotting
 
 # Figure size (inches)
-figwidth = 5.5
+figwidth = 6
 figheight = figwidth / 1.33333
 plt.figure(figsize=(figwidth, figheight))
 
@@ -27,5 +27,5 @@ plt.title('Iterations vs N')
 plt.xlabel('N')
 plt.ylabel('Iterations')
 plt.legend()
-#plt.savefig("scaling.pdf")
+plt.savefig("scaling.pdf")
 #plt.show()

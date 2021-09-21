@@ -24,10 +24,10 @@ int main()
   double iterations = Jacobi(A, R);
 
   //print Jacobi's eigenvec and values
-  std::cout << "Jacobi eigenvector =" << std::endl;
-  std::cout << A << std::endl;
-  std::cout << "Jacobi's eigenvalues =" << std::endl;
+  std::cout << "Jacobi eigenvectors =" << std::endl;
   std::cout << R << std::endl;
+  std::cout << "Jacobi's eigenvalues =" << std::endl;
+  std::cout << A << std::endl;
 
   //get analytical eigenvec and values
   arma::mat ana_vecs = eigenvectors(n);
