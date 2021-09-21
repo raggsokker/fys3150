@@ -4,6 +4,8 @@ Code for solving Project 2
 All the usefull functions are contained in "src"together with the header files
 contained in "include".
 
+Also added some textfiles for my runs "scaling.txt", "solution_10n.txt" and "solution_100n.txt"
+
 
 main_problem3.cpp
 -----------------
@@ -40,11 +42,30 @@ Finds the solution eigenvectors corresponding to the three lowest eigenvalues us
 prints the solution to file. Also prints out the analytical solutions
 
 
+scaling.py
+----------
+
+Finds the best fit curve for the "iterations vs N" and plots the result
+
+
+solution.py
+----------
+
+Plots the solutions
+
 
 How to build and run the programs
 ---------------------------------
+
+For c++ code:
 
 - main_xxx.cpp
   
     Build: g++ main_xxx.cpp src/*.cpp -I include -o main_xxx.exe
     Run: ./main_xxx.exe
+
+
+For python code:
+- xxx.py
+    
+    Run command: python3 xxx.py
