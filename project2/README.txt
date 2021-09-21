@@ -64,6 +64,8 @@ For c++ code:
     Build: g++ main_xxx.cpp src/*.cpp -I include -o main_xxx.exe
     Run: ./main_xxx.exe
 
+    Note! Sometimes had to add "-O1 -larmadillo" after the build command in some cases (idk why)
+    Example: g++ main_xxx.cpp src/*.cpp -I include -o main_xxx.exe -O1 -larmadillo	
 
 For python code:
 - xxx.py
