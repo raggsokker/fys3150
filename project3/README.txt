@@ -28,6 +28,11 @@ particle_count.py
 
 plots the number of particles inside penningtrap
 
+error.py
+----------
+
+plots the relative error for RK4 and FE. Also calculates the error convergence rate
+
 
 How to build and run the programs
 ---------------------------------
